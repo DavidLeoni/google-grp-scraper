@@ -50,7 +50,7 @@ public class CollectLink {
 		Thread.currentThread().sleep(5000);
 		Actions clickAction = new Actions(groupBrowser);
 		WebElement scrollablePane = groupBrowser.findElement(By
-				.className("G3J0AAD-b-F"));
+				.className("IVILX2C-b-D"));
 		clickAction.moveToElement(scrollablePane).click().build().perform();
 
 		Set<String> links = null;
